@@ -196,10 +196,10 @@ class MainActivity : Activity() {
         }
         searchInput = EditText(this).apply {
             hint = "Найти приложение"
-            hintTextColor = Color.parseColor("#829188")
+            setHintTextColor(Color.parseColor("#829188"))
             textSize = 14f
             setTextColor(ink)
-            singleLine = true
+            isSingleLine = true
             maxLines = 1
             ellipsize = TextUtils.TruncateAt.END
             background = rounded(white, 15, border)
