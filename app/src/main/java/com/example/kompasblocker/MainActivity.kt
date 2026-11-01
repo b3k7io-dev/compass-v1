@@ -28,6 +28,8 @@ import android.widget.ScrollView
 import android.widget.Switch
 import android.widget.TextView
 import java.util.Locale
+import android.widget.Toast
+
 
 class MainActivity : Activity() {
     private val prefs by lazy { getSharedPreferences(BlockerAccessibilityService.PREFS, MODE_PRIVATE) }
