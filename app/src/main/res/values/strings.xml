@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Компас</string>
+    <string name="accessibility_service_name">Компас — блокировка выбранных приложений</string>
+    <string name="accessibility_service_description">Служба доступности отслеживает смену активного окна и возвращает на главный экран только выбранные пользователем приложения. Содержимое экрана и нажатия не читаются.</string>
+</resources>
